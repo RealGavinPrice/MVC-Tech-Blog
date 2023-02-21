@@ -1,3 +1,4 @@
+// plugging Comment Post and User models into model index
 const Comment = require('./Comment');
 const Post = require('./Post');
 const User = require('./User');
