@@ -23,7 +23,7 @@ const handlebars = expHandlebars.create({ helpers });
 
 // Sessions init
 const sesh = {
-    secret: 'Super secret secret',
+    secret: process.env.DB_SECRET,
     cookie: {
       maxAge: 60 * 60 * 1000,
       httpOnly: true,
