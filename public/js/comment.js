@@ -1,3 +1,4 @@
+// event handler for adding comments
 async function commentFormHandler(event) {
     event.preventDefault();
 
